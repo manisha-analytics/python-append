@@ -1,0 +1,65 @@
+x=[1,2,3,4,5,6,8,9]
+for i in x:
+    for j in x:
+        print(i+j,end='')
+in this case each element adding every element 
+
+
+
+
+y=[1,2,3,4,5,6,7,8,9]
+def code():
+    for i in y:
+        for j in y:
+            if i+j==5:
+                return[i,j]
+output=code()
+print(output)
+
+in this case i,j adding every element but when i+j=5, then if condtion satisfy ,know loop will stop.
+return key word(built-in key word)
+gives the elements what are the condtion satisfying elements.
+
+if i + j == 5 statement returnis run. return Once executed in a function,
+the entire function ends there . So the loop also stops automatically.
+
+
+ZIP: it is a function to sum the 2 lists.
+
+a=[1,2,3,4]
+b=[5,6,7,8]
+for i,j in zip (a,b):
+    print(i+j)
+
+in this case len of  2 lisa are equal .
+
+a=[1,2,3,4]
+b=[5,6,7,8,9,10]
+for i,j in zip (a,b):
+    print(i+j)
+
+in this case zip finchtion will be sum of the elements when they in same index, know lenght of the list also matters 
+zip wii working on same index  of the 2 lists exrta of the elemnta not addind by any other element so it returns only
+same lenth elemts of sum.
+
+## in this code with out run zip  function ypu will gwt error
+
+enumerate: it will gwt index values of list elements.
+
+a=[1,2,3,4]
+b=[5,6,7,8,9,10]
+c=[]
+for i,j in zip (a,b):
+    c.append(i+j)
+for k in enumerate(c):
+    print(k)
+
+in this case adding  sum values in c. enumerate will working the index of there,it will returns index values od the
+ c in  elements.
+
+ 
+
+         
+
+
+         
